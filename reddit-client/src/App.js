@@ -1,5 +1,9 @@
 import Logo from "./redditlogo.png";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import {
+  MagnifyingGlassIcon,
+  BellIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
+} from "@heroicons/react/24/outline";
 
 function App() {
   return (
@@ -19,6 +23,8 @@ function App() {
             placeHolder="Search"
           />
         </form>
+        <BellIcon className="w-7 h-7 text-white mt-1 ml-5" />
+        <ChatBubbleOvalLeftEllipsisIcon className="w-7 h-7 text-white mt-1 ml-5" />
       </header>
     </div>
   );
